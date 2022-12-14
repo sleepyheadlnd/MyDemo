@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+} 
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul{
+	margin: 0;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: .5em;
+	color: white;
+	 text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: rgba(255,255,255,.3);	
+}
+
+.color {
+	color: #cc0066
+	}
+.size {
+		height: 30%;
+		width: 30%;
+	}
+
+.main-header {
+
+	background-image: url("chhb2.jpg");
+	background-size:cover ;
+	padding-bottom: 30px;
+	
+}
+.nav {
+	text-align: center;
+}
+
+.Web-name {
+	text-align: center;
+	margin: 0;
+	font-size: 3.5em;
+	font-family: "Arial";
+}
+
+.main-nav li {
+	padding: 0 5%;
+}
